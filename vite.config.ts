@@ -6,7 +6,7 @@ import basicSsl from '@vitejs/plugin-basic-ssl'
 export default defineConfig({
   plugins: [react(), basicSsl()],
   build: {
-    outDir: './main',  // Derlenen dosyalar "docs" klasörüne çıkacak
+    outDir: './docs',  // Derlenen dosyalar "docs" klasörüne çıkacak
   },
   base: './',  // Bağlantılar projenin kök dizinine göre ayarlanacak
 })
